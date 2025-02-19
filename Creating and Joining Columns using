@@ -1,0 +1,5 @@
+df1 <- data.frame(ID = c(1, 2, 3), Name = c("Alice", "Bob", "Charlie"))
+df2 <- data.frame(Age = c(25, 30, 28), City = c("New York", "London", "Tokyo"))
+df_combined_columns <- cbind(df1, df2)
+print(df_combined_columns)
+

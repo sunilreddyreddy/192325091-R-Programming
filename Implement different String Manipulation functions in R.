@@ -1,0 +1,8 @@
+str1 <- "Hello"
+str2 <- "World"
+paste(str1, str2)  
+paste0(str1, str2)  
+
+text <- "Programming in R"
+substr(text, 1, 11)  
+
